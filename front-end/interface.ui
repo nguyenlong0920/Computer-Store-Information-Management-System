@@ -401,7 +401,7 @@
              <item>
               <widget class="QStackedWidget" name="stackedWidget">
                <property name="currentIndex">
-                <number>1</number>
+                <number>0</number>
                </property>
                <widget class="QWidget" name="menu">
                 <layout class="QHBoxLayout" name="horizontalLayout_12">
@@ -469,7 +469,7 @@
                         <number>0</number>
                        </property>
                        <item>
-                        <widget class="QPushButton" name="pushButton_9">
+                        <widget class="QPushButton" name="foods">
                          <property name="cursor">
                           <cursorShape>PointingHandCursor</cursorShape>
                          </property>
@@ -479,22 +479,22 @@
                         </widget>
                        </item>
                        <item>
-                        <widget class="QPushButton" name="pushButton_11">
-                         <property name="cursor">
-                          <cursorShape>PointingHandCursor</cursorShape>
-                         </property>
-                         <property name="text">
-                          <string>Others</string>
-                         </property>
-                        </widget>
-                       </item>
-                       <item>
-                        <widget class="QPushButton" name="pushButton_10">
+                        <widget class="QPushButton" name="drinks">
                          <property name="cursor">
                           <cursorShape>PointingHandCursor</cursorShape>
                          </property>
                          <property name="text">
                           <string>Drinks</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QPushButton" name="others">
+                         <property name="cursor">
+                          <cursorShape>PointingHandCursor</cursorShape>
+                         </property>
+                         <property name="text">
+                          <string>Others</string>
                          </property>
                         </widget>
                        </item>
@@ -729,6 +729,9 @@
              </item>
              <item>
               <widget class="QComboBox" name="comboBox">
+               <property name="editable">
+                <bool>false</bool>
+               </property>
                <property name="currentText">
                 <string/>
                </property>
