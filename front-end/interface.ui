@@ -227,7 +227,7 @@
              <item alignment="Qt::AlignLeft">
               <widget class="QFrame" name="frame_11">
                <property name="frameShape">
-                <enum>QFrame::StyledPanel</enum>
+                <enum>QFrame::NoFrame</enum>
                </property>
                <property name="frameShadow">
                 <enum>QFrame::Raised</enum>
@@ -284,7 +284,7 @@
              <item alignment="Qt::AlignRight">
               <widget class="QFrame" name="frame_12">
                <property name="frameShape">
-                <enum>QFrame::StyledPanel</enum>
+                <enum>QFrame::NoFrame</enum>
                </property>
                <property name="frameShadow">
                 <enum>QFrame::Raised</enum>
@@ -729,6 +729,18 @@
              </item>
              <item>
               <widget class="QComboBox" name="comboBox">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>27</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>27</height>
+                </size>
+               </property>
                <property name="editable">
                 <bool>false</bool>
                </property>

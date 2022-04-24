@@ -94,7 +94,7 @@ class Ui_MainWindow(object):
         self.horizontalLayout_8.setSpacing(0)
         self.horizontalLayout_8.setObjectName("horizontalLayout_8")
         self.frame_11 = QtWidgets.QFrame(self.frame_9)
-        self.frame_11.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_11.setFrameShape(QtWidgets.QFrame.NoFrame)
         self.frame_11.setFrameShadow(QtWidgets.QFrame.Raised)
         self.frame_11.setObjectName("frame_11")
         self.horizontalLayout_9 = QtWidgets.QHBoxLayout(self.frame_11)
@@ -117,7 +117,7 @@ class Ui_MainWindow(object):
         self.horizontalLayout_9.addWidget(self.billsButton)
         self.horizontalLayout_8.addWidget(self.frame_11, 0, QtCore.Qt.AlignLeft)
         self.frame_12 = QtWidgets.QFrame(self.frame_9)
-        self.frame_12.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_12.setFrameShape(QtWidgets.QFrame.NoFrame)
         self.frame_12.setFrameShadow(QtWidgets.QFrame.Raised)
         self.frame_12.setObjectName("frame_12")
         self.horizontalLayout_10 = QtWidgets.QHBoxLayout(self.frame_12)
@@ -297,6 +297,8 @@ class Ui_MainWindow(object):
         self.label_2.setObjectName("label_2")
         self.horizontalLayout_6.addWidget(self.label_2)
         self.comboBox = QtWidgets.QComboBox(self.frame_6)
+        self.comboBox.setMinimumSize(QtCore.QSize(0, 27))
+        self.comboBox.setMaximumSize(QtCore.QSize(16777215, 27))
         self.comboBox.setEditable(False)
         self.comboBox.setCurrentText("")
         self.comboBox.setObjectName("comboBox")
@@ -418,9 +420,7 @@ class Ui_MainWindow(object):
 
         self.retranslateUi(MainWindow)
         self.stackedWidget.setCurrentIndex(0)
-        self.comboBox.setCurrentIndex(0)
-        self.comboBox.addItems(["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"])
-        # self.comboBox.currentIndexChanged.connect(self.selectionchange)
+        self.comboBox.setCurrentIndex(-1)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):
