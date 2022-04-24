@@ -186,7 +186,7 @@
            <number>0</number>
           </property>
           <item alignment="Qt::AlignTop">
-           <widget class="QFrame" name="frame_9">
+           <widget class="QFrame" name="topbar">
             <property name="minimumSize">
              <size>
               <width>0</width>
@@ -369,7 +369,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QFrame" name="frame_10">
+           <widget class="QFrame" name="main_2">
             <property name="sizePolicy">
              <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
               <horstretch>0</horstretch>
@@ -410,12 +410,24 @@
                 <number>3</number>
                </property>
                <property name="currentIndex">
-                <number>0</number>
+                <number>1</number>
                </property>
                <widget class="QWidget" name="menu">
                 <layout class="QHBoxLayout" name="horizontalLayout_12">
+                 <property name="leftMargin">
+                  <number>10</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="rightMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="bottomMargin">
+                  <number>5</number>
+                 </property>
                  <item>
-                  <widget class="QFrame" name="frame_4">
+                  <widget class="QFrame" name="sideBar">
                    <property name="minimumSize">
                     <size>
                      <width>0</width>
@@ -469,7 +481,7 @@
                         <number>0</number>
                        </property>
                        <property name="topMargin">
-                        <number>0</number>
+                        <number>9</number>
                        </property>
                        <property name="rightMargin">
                         <number>0</number>
@@ -479,6 +491,18 @@
                        </property>
                        <item>
                         <widget class="QPushButton" name="foods">
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>50</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>50</height>
+                          </size>
+                         </property>
                          <property name="cursor">
                           <cursorShape>PointingHandCursor</cursorShape>
                          </property>
@@ -489,6 +513,18 @@
                        </item>
                        <item>
                         <widget class="QPushButton" name="drinks">
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>50</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>50</height>
+                          </size>
+                         </property>
                          <property name="cursor">
                           <cursorShape>PointingHandCursor</cursorShape>
                          </property>
@@ -499,6 +535,18 @@
                        </item>
                        <item>
                         <widget class="QPushButton" name="others">
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>50</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>50</height>
+                          </size>
+                         </property>
                          <property name="cursor">
                           <cursorShape>PointingHandCursor</cursorShape>
                          </property>
@@ -514,14 +562,32 @@
                   </widget>
                  </item>
                  <item>
-                  <widget class="QStackedWidget" name="stackedWidget_2">
+                  <widget class="QStackedWidget" name="main">
                    <property name="currentIndex">
                     <number>0</number>
                    </property>
                    <widget class="QWidget" name="page">
                     <layout class="QVBoxLayout" name="verticalLayout_10">
+                     <property name="spacing">
+                      <number>0</number>
+                     </property>
+                     <property name="leftMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="topMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="rightMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="bottomMargin">
+                      <number>0</number>
+                     </property>
                      <item>
                       <widget class="QScrollArea" name="scrollArea">
+                       <property name="frameShape">
+                        <enum>QFrame::NoFrame</enum>
+                       </property>
                        <property name="widgetResizable">
                         <bool>true</bool>
                        </property>
@@ -533,7 +599,7 @@
                          <rect>
                           <x>0</x>
                           <y>0</y>
-                          <width>632</width>
+                          <width>660</width>
                           <height>624</height>
                          </rect>
                         </property>
@@ -583,6 +649,18 @@
                </widget>
                <widget class="QWidget" name="bills">
                 <layout class="QHBoxLayout" name="horizontalLayout_13">
+                 <property name="leftMargin">
+                  <number>10</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="rightMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="bottomMargin">
+                  <number>5</number>
+                 </property>
                  <item alignment="Qt::AlignLeft">
                   <widget class="QFrame" name="frame_13">
                    <property name="minimumSize">
@@ -648,6 +726,18 @@
                        </property>
                        <item>
                         <widget class="QPushButton" name="pushButton_12">
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>50</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>50</height>
+                          </size>
+                         </property>
                          <property name="cursor">
                           <cursorShape>PointingHandCursor</cursorShape>
                          </property>
@@ -658,6 +748,18 @@
                        </item>
                        <item>
                         <widget class="QPushButton" name="pushButton_13">
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>50</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>50</height>
+                          </size>
+                         </property>
                          <property name="cursor">
                           <cursorShape>PointingHandCursor</cursorShape>
                          </property>
@@ -738,7 +840,7 @@
            <number>0</number>
           </property>
           <item alignment="Qt::AlignTop">
-           <widget class="QFrame" name="frame_6">
+           <widget class="QFrame" name="topbar_2">
             <property name="minimumSize">
              <size>
               <width>0</width>
@@ -1032,13 +1134,13 @@
             <property name="minimumSize">
              <size>
               <width>0</width>
-              <height>150</height>
+              <height>130</height>
              </size>
             </property>
             <property name="maximumSize">
              <size>
               <width>16777215</width>
-              <height>150</height>
+              <height>130</height>
              </size>
             </property>
             <property name="font">
@@ -1069,13 +1171,13 @@
             <property name="minimumSize">
              <size>
               <width>0</width>
-              <height>60</height>
+              <height>130</height>
              </size>
             </property>
             <property name="maximumSize">
              <size>
               <width>16777215</width>
-              <height>150</height>
+              <height>130</height>
              </size>
             </property>
             <property name="font">
@@ -1106,13 +1208,13 @@
             <property name="minimumSize">
              <size>
               <width>0</width>
-              <height>60</height>
+              <height>130</height>
              </size>
             </property>
             <property name="maximumSize">
              <size>
               <width>16777215</width>
-              <height>150</height>
+              <height>130</height>
              </size>
             </property>
             <property name="font">
