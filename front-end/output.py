@@ -182,6 +182,8 @@ class Ui_MainWindow(object):
         self.sideBar = QtWidgets.QFrame(self.menu)
         self.sideBar.setMinimumSize(QtCore.QSize(0, 0))
         self.sideBar.setMaximumSize(QtCore.QSize(16777215, 16777215))
+        self.sideBar.setStyleSheet("background-color: gray\n"
+"")
         self.sideBar.setFrameShape(QtWidgets.QFrame.NoFrame)
         self.sideBar.setFrameShadow(QtWidgets.QFrame.Raised)
         self.sideBar.setLineWidth(3)
@@ -202,12 +204,16 @@ class Ui_MainWindow(object):
         self.foods.setMinimumSize(QtCore.QSize(0, 50))
         self.foods.setMaximumSize(QtCore.QSize(16777215, 50))
         self.foods.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.foods.setStyleSheet("background-color: blue\n"
+"")
         self.foods.setObjectName("foods")
         self.verticalLayout_6.addWidget(self.foods)
         self.drinks = QtWidgets.QPushButton(self.frame_14)
         self.drinks.setMinimumSize(QtCore.QSize(0, 50))
         self.drinks.setMaximumSize(QtCore.QSize(16777215, 50))
         self.drinks.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.drinks.setStyleSheet("background-color: blue\n"
+"")
         self.drinks.setObjectName("drinks")
         self.verticalLayout_6.addWidget(self.drinks)
         self.others = QtWidgets.QPushButton(self.frame_14)
