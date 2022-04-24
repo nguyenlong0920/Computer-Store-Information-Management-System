@@ -410,7 +410,7 @@
                 <number>3</number>
                </property>
                <property name="currentIndex">
-                <number>1</number>
+                <number>0</number>
                </property>
                <widget class="QWidget" name="menu">
                 <layout class="QHBoxLayout" name="horizontalLayout_12">
@@ -439,6 +439,10 @@
                      <width>16777215</width>
                      <height>16777215</height>
                     </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">background-color: gray
+</string>
                    </property>
                    <property name="frameShape">
                     <enum>QFrame::NoFrame</enum>
@@ -506,6 +510,10 @@
                          <property name="cursor">
                           <cursorShape>PointingHandCursor</cursorShape>
                          </property>
+                         <property name="styleSheet">
+                          <string notr="true">background-color: blue
+</string>
+                         </property>
                          <property name="text">
                           <string>Foods</string>
                          </property>
@@ -527,6 +535,10 @@
                          </property>
                          <property name="cursor">
                           <cursorShape>PointingHandCursor</cursorShape>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">background-color: blue
+</string>
                          </property>
                          <property name="text">
                           <string>Drinks</string>
@@ -600,16 +612,122 @@
                           <x>0</x>
                           <y>0</y>
                           <width>660</width>
-                          <height>624</height>
+                          <height>630</height>
                          </rect>
                         </property>
-                        <layout class="QVBoxLayout" name="verticalLayout_11">
-                         <item>
+                        <layout class="QGridLayout" name="gridLayout">
+                         <item row="1" column="1">
+                          <widget class="QFrame" name="frame_21">
+                           <property name="minimumSize">
+                            <size>
+                             <width>150</width>
+                             <height>200</height>
+                            </size>
+                           </property>
+                           <property name="maximumSize">
+                            <size>
+                             <width>150</width>
+                             <height>200</height>
+                            </size>
+                           </property>
+                           <property name="frameShape">
+                            <enum>QFrame::WinPanel</enum>
+                           </property>
+                           <property name="frameShadow">
+                            <enum>QFrame::Raised</enum>
+                           </property>
+                           <property name="lineWidth">
+                            <number>1</number>
+                           </property>
+                          </widget>
+                         </item>
+                         <item row="3" column="0">
+                          <widget class="QFrame" name="frame_22">
+                           <property name="minimumSize">
+                            <size>
+                             <width>150</width>
+                             <height>200</height>
+                            </size>
+                           </property>
+                           <property name="maximumSize">
+                            <size>
+                             <width>150</width>
+                             <height>200</height>
+                            </size>
+                           </property>
+                           <property name="frameShape">
+                            <enum>QFrame::WinPanel</enum>
+                           </property>
+                           <property name="frameShadow">
+                            <enum>QFrame::Raised</enum>
+                           </property>
+                           <property name="lineWidth">
+                            <number>1</number>
+                           </property>
+                          </widget>
+                         </item>
+                         <item row="1" column="2">
+                          <widget class="QFrame" name="frame_4">
+                           <property name="minimumSize">
+                            <size>
+                             <width>150</width>
+                             <height>200</height>
+                            </size>
+                           </property>
+                           <property name="maximumSize">
+                            <size>
+                             <width>150</width>
+                             <height>200</height>
+                            </size>
+                           </property>
+                           <property name="frameShape">
+                            <enum>QFrame::WinPanel</enum>
+                           </property>
+                           <property name="frameShadow">
+                            <enum>QFrame::Raised</enum>
+                           </property>
+                           <property name="lineWidth">
+                            <number>1</number>
+                           </property>
+                          </widget>
+                         </item>
+                         <item row="1" column="0">
                           <widget class="QFrame" name="frame_20">
                            <property name="minimumSize">
                             <size>
-                             <width>0</width>
-                             <height>300</height>
+                             <width>150</width>
+                             <height>200</height>
+                            </size>
+                           </property>
+                           <property name="maximumSize">
+                            <size>
+                             <width>150</width>
+                             <height>200</height>
+                            </size>
+                           </property>
+                           <property name="frameShape">
+                            <enum>QFrame::WinPanel</enum>
+                           </property>
+                           <property name="frameShadow">
+                            <enum>QFrame::Raised</enum>
+                           </property>
+                           <property name="lineWidth">
+                            <number>1</number>
+                           </property>
+                          </widget>
+                         </item>
+                         <item row="1" column="3">
+                          <widget class="QFrame" name="frame_5">
+                           <property name="minimumSize">
+                            <size>
+                             <width>150</width>
+                             <height>200</height>
+                            </size>
+                           </property>
+                           <property name="maximumSize">
+                            <size>
+                             <width>150</width>
+                             <height>200</height>
                             </size>
                            </property>
                            <property name="frameShape">
@@ -620,19 +738,172 @@
                            </property>
                           </widget>
                          </item>
-                         <item>
-                          <widget class="QFrame" name="frame_18">
+                         <item row="3" column="2">
+                          <widget class="QFrame" name="frame_6">
                            <property name="minimumSize">
                             <size>
-                             <width>0</width>
-                             <height>300</height>
+                             <width>150</width>
+                             <height>200</height>
+                            </size>
+                           </property>
+                           <property name="maximumSize">
+                            <size>
+                             <width>150</width>
+                             <height>200</height>
                             </size>
                            </property>
                            <property name="frameShape">
-                            <enum>QFrame::StyledPanel</enum>
+                            <enum>QFrame::WinPanel</enum>
                            </property>
                            <property name="frameShadow">
                             <enum>QFrame::Raised</enum>
+                           </property>
+                           <property name="lineWidth">
+                            <number>1</number>
+                           </property>
+                          </widget>
+                         </item>
+                         <item row="2" column="3">
+                          <widget class="QFrame" name="frame_9">
+                           <property name="minimumSize">
+                            <size>
+                             <width>150</width>
+                             <height>200</height>
+                            </size>
+                           </property>
+                           <property name="maximumSize">
+                            <size>
+                             <width>150</width>
+                             <height>200</height>
+                            </size>
+                           </property>
+                           <property name="frameShape">
+                            <enum>QFrame::WinPanel</enum>
+                           </property>
+                           <property name="frameShadow">
+                            <enum>QFrame::Raised</enum>
+                           </property>
+                          </widget>
+                         </item>
+                         <item row="3" column="3">
+                          <widget class="QFrame" name="frame_10">
+                           <property name="minimumSize">
+                            <size>
+                             <width>150</width>
+                             <height>200</height>
+                            </size>
+                           </property>
+                           <property name="maximumSize">
+                            <size>
+                             <width>150</width>
+                             <height>200</height>
+                            </size>
+                           </property>
+                           <property name="frameShape">
+                            <enum>QFrame::WinPanel</enum>
+                           </property>
+                           <property name="frameShadow">
+                            <enum>QFrame::Raised</enum>
+                           </property>
+                          </widget>
+                         </item>
+                         <item row="2" column="0">
+                          <widget class="QFrame" name="frame_23">
+                           <property name="minimumSize">
+                            <size>
+                             <width>150</width>
+                             <height>200</height>
+                            </size>
+                           </property>
+                           <property name="maximumSize">
+                            <size>
+                             <width>150</width>
+                             <height>200</height>
+                            </size>
+                           </property>
+                           <property name="frameShape">
+                            <enum>QFrame::WinPanel</enum>
+                           </property>
+                           <property name="frameShadow">
+                            <enum>QFrame::Raised</enum>
+                           </property>
+                           <property name="lineWidth">
+                            <number>1</number>
+                           </property>
+                          </widget>
+                         </item>
+                         <item row="2" column="1">
+                          <widget class="QFrame" name="frame_24">
+                           <property name="minimumSize">
+                            <size>
+                             <width>150</width>
+                             <height>200</height>
+                            </size>
+                           </property>
+                           <property name="maximumSize">
+                            <size>
+                             <width>150</width>
+                             <height>200</height>
+                            </size>
+                           </property>
+                           <property name="frameShape">
+                            <enum>QFrame::WinPanel</enum>
+                           </property>
+                           <property name="frameShadow">
+                            <enum>QFrame::Raised</enum>
+                           </property>
+                           <property name="lineWidth">
+                            <number>1</number>
+                           </property>
+                          </widget>
+                         </item>
+                         <item row="2" column="2">
+                          <widget class="QFrame" name="frame_17">
+                           <property name="minimumSize">
+                            <size>
+                             <width>150</width>
+                             <height>200</height>
+                            </size>
+                           </property>
+                           <property name="maximumSize">
+                            <size>
+                             <width>150</width>
+                             <height>200</height>
+                            </size>
+                           </property>
+                           <property name="frameShape">
+                            <enum>QFrame::WinPanel</enum>
+                           </property>
+                           <property name="frameShadow">
+                            <enum>QFrame::Raised</enum>
+                           </property>
+                           <property name="lineWidth">
+                            <number>1</number>
+                           </property>
+                          </widget>
+                         </item>
+                         <item row="3" column="1">
+                          <widget class="QFrame" name="frame_18">
+                           <property name="minimumSize">
+                            <size>
+                             <width>150</width>
+                             <height>200</height>
+                            </size>
+                           </property>
+                           <property name="maximumSize">
+                            <size>
+                             <width>150</width>
+                             <height>200</height>
+                            </size>
+                           </property>
+                           <property name="frameShape">
+                            <enum>QFrame::WinPanel</enum>
+                           </property>
+                           <property name="frameShadow">
+                            <enum>QFrame::Raised</enum>
+                           </property>
+                           <property name="lineWidth">
+                            <number>1</number>
                            </property>
                           </widget>
                          </item>
