@@ -25,12 +25,22 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+  <property name="autoFillBackground">
+   <bool>true</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/bg/img/cd1783ef9fcc4abf075ae1651034c91c.png);
+background-image: url(:/bg/img/cd1783ef9fcc4abf075ae1651034c91c.png);
+background-position: center;
+color: white;
+</string>
+  </property>
   <widget class="QWidget" name="centralwidget">
+   <property name="autoFillBackground">
+    <bool>true</bool>
+   </property>
    <property name="styleSheet">
-    <string notr="true">*{
-	background-color: #5ADEFF;
-	color: white;
-}</string>
+    <string notr="true"/>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout">
     <property name="spacing">
@@ -83,6 +93,9 @@
        </property>
        <item>
         <widget class="QFrame" name="title">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(234, 84, 85);</string>
+         </property>
          <property name="frameShape">
           <enum>QFrame::WinPanel</enum>
          </property>
@@ -123,6 +136,12 @@
         <horstretch>0</horstretch>
         <verstretch>0</verstretch>
        </sizepolicy>
+      </property>
+      <property name="autoFillBackground">
+       <bool>true</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
       </property>
       <property name="frameShape">
        <enum>QFrame::NoFrame</enum>
@@ -199,6 +218,10 @@
               <height>60</height>
              </size>
             </property>
+            <property name="styleSheet">
+             <string notr="true">
+background-color: rgb(238, 238, 238);</string>
+            </property>
             <property name="frameShape">
              <enum>QFrame::WinPanel</enum>
             </property>
@@ -258,6 +281,9 @@
                   <property name="cursor">
                    <cursorShape>PointingHandCursor</cursorShape>
                   </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(134, 117, 169);</string>
+                  </property>
                   <property name="text">
                    <string>Menu</string>
                   </property>
@@ -272,6 +298,9 @@
                   </property>
                   <property name="cursor">
                    <cursorShape>PointingHandCursor</cursorShape>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(134, 117, 169);</string>
                   </property>
                   <property name="text">
                    <string>Bills</string>
@@ -315,6 +344,9 @@
                   <property name="cursor">
                    <cursorShape>PointingHandCursor</cursorShape>
                   </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(134, 117, 169);</string>
+                  </property>
                   <property name="text">
                    <string>Search</string>
                   </property>
@@ -334,6 +366,9 @@
                   <property name="cursor">
                    <cursorShape>PointingHandCursor</cursorShape>
                   </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(134, 117, 169);</string>
+                  </property>
                   <property name="text">
                    <string>Edit</string>
                   </property>
@@ -352,6 +387,9 @@
                   </property>
                   <property name="cursor">
                    <cursorShape>PointingHandCursor</cursorShape>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(134, 117, 169);</string>
                   </property>
                   <property name="text">
                    <string>Logout</string>
@@ -400,6 +438,9 @@
              </property>
              <item>
               <widget class="QStackedWidget" name="stackedWidget">
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(34, 40, 49);</string>
+               </property>
                <property name="frameShape">
                 <enum>QFrame::WinPanel</enum>
                </property>
@@ -441,8 +482,8 @@
                     </size>
                    </property>
                    <property name="styleSheet">
-                    <string notr="true">background-color: gray
-</string>
+                    <string notr="true">
+background-color: rgb(34, 40, 49);</string>
                    </property>
                    <property name="frameShape">
                     <enum>QFrame::NoFrame</enum>
@@ -497,7 +538,7 @@
                         <widget class="QPushButton" name="foods">
                          <property name="minimumSize">
                           <size>
-                           <width>0</width>
+                           <width>50</width>
                            <height>50</height>
                           </size>
                          </property>
@@ -511,8 +552,7 @@
                           <cursorShape>PointingHandCursor</cursorShape>
                          </property>
                          <property name="styleSheet">
-                          <string notr="true">background-color: blue
-</string>
+                          <string notr="true">background-color: rgb(134, 117, 169);</string>
                          </property>
                          <property name="text">
                           <string>Foods</string>
@@ -537,8 +577,7 @@
                           <cursorShape>PointingHandCursor</cursorShape>
                          </property>
                          <property name="styleSheet">
-                          <string notr="true">background-color: blue
-</string>
+                          <string notr="true">background-color: rgb(134, 117, 169);</string>
                          </property>
                          <property name="text">
                           <string>Drinks</string>
@@ -555,12 +594,15 @@
                          </property>
                          <property name="maximumSize">
                           <size>
-                           <width>16777215</width>
+                           <width>16777212</width>
                            <height>50</height>
                           </size>
                          </property>
                          <property name="cursor">
                           <cursorShape>PointingHandCursor</cursorShape>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">background-color: rgb(134, 117, 169);</string>
                          </property>
                          <property name="text">
                           <string>Others</string>
@@ -597,6 +639,21 @@
                      </property>
                      <item>
                       <widget class="QScrollArea" name="scrollArea">
+                       <property name="minimumSize">
+                        <size>
+                         <width>0</width>
+                         <height>579</height>
+                        </size>
+                       </property>
+                       <property name="maximumSize">
+                        <size>
+                         <width>16777215</width>
+                         <height>579</height>
+                        </size>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">background-color: rgb(34, 40, 49);</string>
+                       </property>
                        <property name="frameShape">
                         <enum>QFrame::NoFrame</enum>
                        </property>
@@ -610,181 +667,12 @@
                         <property name="geometry">
                          <rect>
                           <x>0</x>
-                          <y>0</y>
-                          <width>660</width>
-                          <height>630</height>
+                          <y>-41</y>
+                          <width>711</width>
+                          <height>620</height>
                          </rect>
                         </property>
                         <layout class="QGridLayout" name="gridLayout">
-                         <item row="1" column="1">
-                          <widget class="QFrame" name="frame_21">
-                           <property name="minimumSize">
-                            <size>
-                             <width>150</width>
-                             <height>200</height>
-                            </size>
-                           </property>
-                           <property name="maximumSize">
-                            <size>
-                             <width>150</width>
-                             <height>200</height>
-                            </size>
-                           </property>
-                           <property name="frameShape">
-                            <enum>QFrame::WinPanel</enum>
-                           </property>
-                           <property name="frameShadow">
-                            <enum>QFrame::Raised</enum>
-                           </property>
-                           <property name="lineWidth">
-                            <number>1</number>
-                           </property>
-                          </widget>
-                         </item>
-                         <item row="3" column="0">
-                          <widget class="QFrame" name="frame_22">
-                           <property name="minimumSize">
-                            <size>
-                             <width>150</width>
-                             <height>200</height>
-                            </size>
-                           </property>
-                           <property name="maximumSize">
-                            <size>
-                             <width>150</width>
-                             <height>200</height>
-                            </size>
-                           </property>
-                           <property name="frameShape">
-                            <enum>QFrame::WinPanel</enum>
-                           </property>
-                           <property name="frameShadow">
-                            <enum>QFrame::Raised</enum>
-                           </property>
-                           <property name="lineWidth">
-                            <number>1</number>
-                           </property>
-                          </widget>
-                         </item>
-                         <item row="1" column="2">
-                          <widget class="QFrame" name="frame_4">
-                           <property name="minimumSize">
-                            <size>
-                             <width>150</width>
-                             <height>200</height>
-                            </size>
-                           </property>
-                           <property name="maximumSize">
-                            <size>
-                             <width>150</width>
-                             <height>200</height>
-                            </size>
-                           </property>
-                           <property name="frameShape">
-                            <enum>QFrame::WinPanel</enum>
-                           </property>
-                           <property name="frameShadow">
-                            <enum>QFrame::Raised</enum>
-                           </property>
-                           <property name="lineWidth">
-                            <number>1</number>
-                           </property>
-                          </widget>
-                         </item>
-                         <item row="1" column="0">
-                          <widget class="QFrame" name="frame_20">
-                           <property name="minimumSize">
-                            <size>
-                             <width>150</width>
-                             <height>200</height>
-                            </size>
-                           </property>
-                           <property name="maximumSize">
-                            <size>
-                             <width>150</width>
-                             <height>200</height>
-                            </size>
-                           </property>
-                           <property name="frameShape">
-                            <enum>QFrame::WinPanel</enum>
-                           </property>
-                           <property name="frameShadow">
-                            <enum>QFrame::Raised</enum>
-                           </property>
-                           <property name="lineWidth">
-                            <number>1</number>
-                           </property>
-                          </widget>
-                         </item>
-                         <item row="1" column="3">
-                          <widget class="QFrame" name="frame_5">
-                           <property name="minimumSize">
-                            <size>
-                             <width>150</width>
-                             <height>200</height>
-                            </size>
-                           </property>
-                           <property name="maximumSize">
-                            <size>
-                             <width>150</width>
-                             <height>200</height>
-                            </size>
-                           </property>
-                           <property name="frameShape">
-                            <enum>QFrame::WinPanel</enum>
-                           </property>
-                           <property name="frameShadow">
-                            <enum>QFrame::Raised</enum>
-                           </property>
-                          </widget>
-                         </item>
-                         <item row="3" column="2">
-                          <widget class="QFrame" name="frame_6">
-                           <property name="minimumSize">
-                            <size>
-                             <width>150</width>
-                             <height>200</height>
-                            </size>
-                           </property>
-                           <property name="maximumSize">
-                            <size>
-                             <width>150</width>
-                             <height>200</height>
-                            </size>
-                           </property>
-                           <property name="frameShape">
-                            <enum>QFrame::WinPanel</enum>
-                           </property>
-                           <property name="frameShadow">
-                            <enum>QFrame::Raised</enum>
-                           </property>
-                           <property name="lineWidth">
-                            <number>1</number>
-                           </property>
-                          </widget>
-                         </item>
-                         <item row="2" column="3">
-                          <widget class="QFrame" name="frame_9">
-                           <property name="minimumSize">
-                            <size>
-                             <width>150</width>
-                             <height>200</height>
-                            </size>
-                           </property>
-                           <property name="maximumSize">
-                            <size>
-                             <width>150</width>
-                             <height>200</height>
-                            </size>
-                           </property>
-                           <property name="frameShape">
-                            <enum>QFrame::WinPanel</enum>
-                           </property>
-                           <property name="frameShadow">
-                            <enum>QFrame::Raised</enum>
-                           </property>
-                          </widget>
-                         </item>
                          <item row="3" column="3">
                           <widget class="QFrame" name="frame_10">
                            <property name="minimumSize">
@@ -799,27 +687,8 @@
                              <height>200</height>
                             </size>
                            </property>
-                           <property name="frameShape">
-                            <enum>QFrame::WinPanel</enum>
-                           </property>
-                           <property name="frameShadow">
-                            <enum>QFrame::Raised</enum>
-                           </property>
-                          </widget>
-                         </item>
-                         <item row="2" column="0">
-                          <widget class="QFrame" name="frame_23">
-                           <property name="minimumSize">
-                            <size>
-                             <width>150</width>
-                             <height>200</height>
-                            </size>
-                           </property>
-                           <property name="maximumSize">
-                            <size>
-                             <width>150</width>
-                             <height>200</height>
-                            </size>
+                           <property name="styleSheet">
+                            <string notr="true">background-color: rgb(57, 62, 70);</string>
                            </property>
                            <property name="frameShape">
                             <enum>QFrame::WinPanel</enum>
@@ -827,34 +696,19 @@
                            <property name="frameShadow">
                             <enum>QFrame::Raised</enum>
                            </property>
-                           <property name="lineWidth">
-                            <number>1</number>
-                           </property>
-                          </widget>
-                         </item>
-                         <item row="2" column="1">
-                          <widget class="QFrame" name="frame_24">
-                           <property name="minimumSize">
-                            <size>
-                             <width>150</width>
-                             <height>200</height>
-                            </size>
-                           </property>
-                           <property name="maximumSize">
-                            <size>
-                             <width>150</width>
-                             <height>200</height>
-                            </size>
-                           </property>
-                           <property name="frameShape">
-                            <enum>QFrame::WinPanel</enum>
-                           </property>
-                           <property name="frameShadow">
-                            <enum>QFrame::Raised</enum>
-                           </property>
-                           <property name="lineWidth">
-                            <number>1</number>
-                           </property>
+                           <widget class="QLabel" name="label_17">
+                            <property name="geometry">
+                             <rect>
+                              <x>10</x>
+                              <y>10</y>
+                              <width>131</width>
+                              <height>181</height>
+                             </rect>
+                            </property>
+                            <property name="text">
+                             <string>TextLabel</string>
+                            </property>
+                           </widget>
                           </widget>
                          </item>
                          <item row="2" column="2">
@@ -871,6 +725,9 @@
                              <height>200</height>
                             </size>
                            </property>
+                           <property name="styleSheet">
+                            <string notr="true">background-color: rgb(57, 62, 70);</string>
+                           </property>
                            <property name="frameShape">
                             <enum>QFrame::WinPanel</enum>
                            </property>
@@ -880,6 +737,222 @@
                            <property name="lineWidth">
                             <number>1</number>
                            </property>
+                           <widget class="QLabel" name="label_11">
+                            <property name="geometry">
+                             <rect>
+                              <x>10</x>
+                              <y>10</y>
+                              <width>131</width>
+                              <height>181</height>
+                             </rect>
+                            </property>
+                            <property name="text">
+                             <string>TextLabel</string>
+                            </property>
+                           </widget>
+                          </widget>
+                         </item>
+                         <item row="1" column="1">
+                          <widget class="QFrame" name="frame_21">
+                           <property name="minimumSize">
+                            <size>
+                             <width>150</width>
+                             <height>200</height>
+                            </size>
+                           </property>
+                           <property name="maximumSize">
+                            <size>
+                             <width>150</width>
+                             <height>200</height>
+                            </size>
+                           </property>
+                           <property name="styleSheet">
+                            <string notr="true">background-color: rgb(57, 62, 70);</string>
+                           </property>
+                           <property name="frameShape">
+                            <enum>QFrame::WinPanel</enum>
+                           </property>
+                           <property name="frameShadow">
+                            <enum>QFrame::Raised</enum>
+                           </property>
+                           <property name="lineWidth">
+                            <number>1</number>
+                           </property>
+                           <widget class="QLabel" name="label_7">
+                            <property name="geometry">
+                             <rect>
+                              <x>10</x>
+                              <y>10</y>
+                              <width>131</width>
+                              <height>181</height>
+                             </rect>
+                            </property>
+                            <property name="text">
+                             <string>TextLabel</string>
+                            </property>
+                           </widget>
+                          </widget>
+                         </item>
+                         <item row="2" column="3">
+                          <widget class="QFrame" name="frame_9">
+                           <property name="minimumSize">
+                            <size>
+                             <width>150</width>
+                             <height>200</height>
+                            </size>
+                           </property>
+                           <property name="maximumSize">
+                            <size>
+                             <width>150</width>
+                             <height>200</height>
+                            </size>
+                           </property>
+                           <property name="styleSheet">
+                            <string notr="true">background-color: rgb(57, 62, 70);</string>
+                           </property>
+                           <property name="frameShape">
+                            <enum>QFrame::WinPanel</enum>
+                           </property>
+                           <property name="frameShadow">
+                            <enum>QFrame::Raised</enum>
+                           </property>
+                           <widget class="QLabel" name="label_10">
+                            <property name="geometry">
+                             <rect>
+                              <x>10</x>
+                              <y>10</y>
+                              <width>131</width>
+                              <height>181</height>
+                             </rect>
+                            </property>
+                            <property name="text">
+                             <string>TextLabel</string>
+                            </property>
+                           </widget>
+                          </widget>
+                         </item>
+                         <item row="3" column="2">
+                          <widget class="QFrame" name="frame_6">
+                           <property name="minimumSize">
+                            <size>
+                             <width>150</width>
+                             <height>200</height>
+                            </size>
+                           </property>
+                           <property name="maximumSize">
+                            <size>
+                             <width>150</width>
+                             <height>200</height>
+                            </size>
+                           </property>
+                           <property name="styleSheet">
+                            <string notr="true">background-color: rgb(57, 62, 70);</string>
+                           </property>
+                           <property name="frameShape">
+                            <enum>QFrame::WinPanel</enum>
+                           </property>
+                           <property name="frameShadow">
+                            <enum>QFrame::Raised</enum>
+                           </property>
+                           <property name="lineWidth">
+                            <number>1</number>
+                           </property>
+                           <widget class="QLabel" name="label_16">
+                            <property name="geometry">
+                             <rect>
+                              <x>10</x>
+                              <y>10</y>
+                              <width>131</width>
+                              <height>181</height>
+                             </rect>
+                            </property>
+                            <property name="text">
+                             <string>TextLabel</string>
+                            </property>
+                           </widget>
+                          </widget>
+                         </item>
+                         <item row="1" column="0">
+                          <widget class="QFrame" name="frame_20">
+                           <property name="minimumSize">
+                            <size>
+                             <width>150</width>
+                             <height>200</height>
+                            </size>
+                           </property>
+                           <property name="maximumSize">
+                            <size>
+                             <width>150</width>
+                             <height>200</height>
+                            </size>
+                           </property>
+                           <property name="styleSheet">
+                            <string notr="true">background-color: rgb(255, 226, 226);
+background-color: rgb(57, 62, 70);</string>
+                           </property>
+                           <property name="frameShape">
+                            <enum>QFrame::WinPanel</enum>
+                           </property>
+                           <property name="frameShadow">
+                            <enum>QFrame::Raised</enum>
+                           </property>
+                           <property name="lineWidth">
+                            <number>1</number>
+                           </property>
+                           <widget class="QLabel" name="label_6">
+                            <property name="geometry">
+                             <rect>
+                              <x>10</x>
+                              <y>10</y>
+                              <width>131</width>
+                              <height>181</height>
+                             </rect>
+                            </property>
+                            <property name="text">
+                             <string>TextLabel</string>
+                            </property>
+                           </widget>
+                          </widget>
+                         </item>
+                         <item row="1" column="2">
+                          <widget class="QFrame" name="frame_4">
+                           <property name="minimumSize">
+                            <size>
+                             <width>150</width>
+                             <height>200</height>
+                            </size>
+                           </property>
+                           <property name="maximumSize">
+                            <size>
+                             <width>150</width>
+                             <height>200</height>
+                            </size>
+                           </property>
+                           <property name="styleSheet">
+                            <string notr="true">background-color: rgb(57, 62, 70);</string>
+                           </property>
+                           <property name="frameShape">
+                            <enum>QFrame::WinPanel</enum>
+                           </property>
+                           <property name="frameShadow">
+                            <enum>QFrame::Raised</enum>
+                           </property>
+                           <property name="lineWidth">
+                            <number>1</number>
+                           </property>
+                           <widget class="QLabel" name="label_8">
+                            <property name="geometry">
+                             <rect>
+                              <x>10</x>
+                              <y>10</y>
+                              <width>131</width>
+                              <height>181</height>
+                             </rect>
+                            </property>
+                            <property name="text">
+                             <string>TextLabel</string>
+                            </property>
+                           </widget>
                           </widget>
                          </item>
                          <item row="3" column="1">
@@ -896,6 +969,9 @@
                              <height>200</height>
                             </size>
                            </property>
+                           <property name="styleSheet">
+                            <string notr="true">background-color: rgb(57, 62, 70);</string>
+                           </property>
                            <property name="frameShape">
                             <enum>QFrame::WinPanel</enum>
                            </property>
@@ -905,6 +981,180 @@
                            <property name="lineWidth">
                             <number>1</number>
                            </property>
+                           <widget class="QLabel" name="label_15">
+                            <property name="geometry">
+                             <rect>
+                              <x>10</x>
+                              <y>9</y>
+                              <width>131</width>
+                              <height>181</height>
+                             </rect>
+                            </property>
+                            <property name="text">
+                             <string>TextLabel</string>
+                            </property>
+                           </widget>
+                          </widget>
+                         </item>
+                         <item row="2" column="1">
+                          <widget class="QFrame" name="frame_24">
+                           <property name="minimumSize">
+                            <size>
+                             <width>150</width>
+                             <height>200</height>
+                            </size>
+                           </property>
+                           <property name="maximumSize">
+                            <size>
+                             <width>150</width>
+                             <height>200</height>
+                            </size>
+                           </property>
+                           <property name="styleSheet">
+                            <string notr="true">background-color: rgb(57, 62, 70);</string>
+                           </property>
+                           <property name="frameShape">
+                            <enum>QFrame::WinPanel</enum>
+                           </property>
+                           <property name="frameShadow">
+                            <enum>QFrame::Raised</enum>
+                           </property>
+                           <property name="lineWidth">
+                            <number>1</number>
+                           </property>
+                           <widget class="QLabel" name="label_12">
+                            <property name="geometry">
+                             <rect>
+                              <x>10</x>
+                              <y>10</y>
+                              <width>131</width>
+                              <height>181</height>
+                             </rect>
+                            </property>
+                            <property name="text">
+                             <string>TextLabel</string>
+                            </property>
+                           </widget>
+                          </widget>
+                         </item>
+                         <item row="1" column="3">
+                          <widget class="QFrame" name="frame_5">
+                           <property name="minimumSize">
+                            <size>
+                             <width>150</width>
+                             <height>200</height>
+                            </size>
+                           </property>
+                           <property name="maximumSize">
+                            <size>
+                             <width>150</width>
+                             <height>200</height>
+                            </size>
+                           </property>
+                           <property name="styleSheet">
+                            <string notr="true">background-color: rgb(57, 62, 70);</string>
+                           </property>
+                           <property name="frameShape">
+                            <enum>QFrame::WinPanel</enum>
+                           </property>
+                           <property name="frameShadow">
+                            <enum>QFrame::Raised</enum>
+                           </property>
+                           <widget class="QLabel" name="label_9">
+                            <property name="geometry">
+                             <rect>
+                              <x>10</x>
+                              <y>10</y>
+                              <width>131</width>
+                              <height>181</height>
+                             </rect>
+                            </property>
+                            <property name="text">
+                             <string>TextLabel</string>
+                            </property>
+                           </widget>
+                          </widget>
+                         </item>
+                         <item row="2" column="0">
+                          <widget class="QFrame" name="frame_23">
+                           <property name="minimumSize">
+                            <size>
+                             <width>150</width>
+                             <height>200</height>
+                            </size>
+                           </property>
+                           <property name="maximumSize">
+                            <size>
+                             <width>150</width>
+                             <height>200</height>
+                            </size>
+                           </property>
+                           <property name="styleSheet">
+                            <string notr="true">background-color: rgb(57, 62, 70);</string>
+                           </property>
+                           <property name="frameShape">
+                            <enum>QFrame::WinPanel</enum>
+                           </property>
+                           <property name="frameShadow">
+                            <enum>QFrame::Raised</enum>
+                           </property>
+                           <property name="lineWidth">
+                            <number>1</number>
+                           </property>
+                           <widget class="QLabel" name="label_13">
+                            <property name="geometry">
+                             <rect>
+                              <x>10</x>
+                              <y>10</y>
+                              <width>131</width>
+                              <height>181</height>
+                             </rect>
+                            </property>
+                            <property name="text">
+                             <string>TextLabel</string>
+                            </property>
+                           </widget>
+                          </widget>
+                         </item>
+                         <item row="3" column="0">
+                          <widget class="QFrame" name="frame_22">
+                           <property name="minimumSize">
+                            <size>
+                             <width>150</width>
+                             <height>200</height>
+                            </size>
+                           </property>
+                           <property name="maximumSize">
+                            <size>
+                             <width>150</width>
+                             <height>200</height>
+                            </size>
+                           </property>
+                           <property name="styleSheet">
+                            <string notr="true">background-color: rgb(57, 62, 70);</string>
+                           </property>
+                           <property name="frameShape">
+                            <enum>QFrame::WinPanel</enum>
+                           </property>
+                           <property name="frameShadow">
+                            <enum>QFrame::Raised</enum>
+                           </property>
+                           <property name="lineWidth">
+                            <number>1</number>
+                           </property>
+                           <widget class="QLabel" name="label_14">
+                            <property name="geometry">
+                             <rect>
+                              <x>10</x>
+                              <y>10</y>
+                              <width>131</width>
+                              <height>181</height>
+                             </rect>
+                            </property>
+                            <property name="text">
+                             <string>TextLabel</string>
+                            </property>
+                           </widget>
                           </widget>
                          </item>
                         </layout>
@@ -1012,6 +1262,9 @@
                          <property name="cursor">
                           <cursorShape>PointingHandCursor</cursorShape>
                          </property>
+                         <property name="styleSheet">
+                          <string notr="true">background-color: rgb(222, 137, 113);</string>
+                         </property>
                          <property name="text">
                           <string>To Pay</string>
                          </property>
@@ -1033,6 +1286,9 @@
                          </property>
                          <property name="cursor">
                           <cursorShape>PointingHandCursor</cursorShape>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">background-color: rgb(222, 137, 113);</string>
                          </property>
                          <property name="text">
                           <string>Payed</string>
@@ -1124,6 +1380,10 @@
               <height>60</height>
              </size>
             </property>
+            <property name="styleSheet">
+             <string notr="true">
+background-color: rgb(238, 238, 238);</string>
+            </property>
             <property name="frameShape">
              <enum>QFrame::WinPanel</enum>
             </property>
@@ -1172,6 +1432,9 @@
                  <height>27</height>
                 </size>
                </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(134, 117, 169);</string>
+               </property>
                <property name="editable">
                 <bool>false</bool>
                </property>
@@ -1199,6 +1462,10 @@
               <width>0</width>
               <height>0</height>
              </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">
+background-color: rgb(34, 40, 49);</string>
             </property>
             <property name="frameShape">
              <enum>QFrame::WinPanel</enum>
@@ -1232,6 +1499,9 @@
                  <pointsize>30</pointsize>
                 </font>
                </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(34, 40, 49);</string>
+               </property>
                <property name="text">
                 <string>LIST</string>
                </property>
@@ -1253,6 +1523,9 @@
               <width>16777215</width>
               <height>16777215</height>
              </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(134, 117, 169);</string>
             </property>
             <property name="frameShape">
              <enum>QFrame::Panel</enum>
@@ -1281,6 +1554,9 @@
              </property>
              <item>
               <widget class="QLabel" name="label_3">
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(134, 117, 169);</string>
+               </property>
                <property name="text">
                 <string>Total:</string>
                </property>
@@ -1291,6 +1567,9 @@
              </item>
              <item>
               <widget class="QLabel" name="label_4">
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(134, 117, 169);</string>
+               </property>
                <property name="text">
                 <string>TextLabel</string>
                </property>
@@ -1318,6 +1597,9 @@
         <width>16777215</width>
         <height>200</height>
        </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(34, 40, 49);</string>
       </property>
       <property name="frameShape">
        <enum>QFrame::NoFrame</enum>
@@ -1422,6 +1704,9 @@
             <property name="cursor">
              <cursorShape>PointingHandCursor</cursorShape>
             </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(134, 117, 169);</string>
+            </property>
             <property name="text">
              <string>Print</string>
             </property>
@@ -1459,6 +1744,9 @@
             <property name="cursor">
              <cursorShape>PointingHandCursor</cursorShape>
             </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(134, 117, 169);</string>
+            </property>
             <property name="text">
              <string>Save</string>
             </property>
@@ -1495,6 +1783,9 @@
             </property>
             <property name="cursor">
              <cursorShape>PointingHandCursor</cursorShape>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(134, 117, 169);</string>
             </property>
             <property name="text">
              <string>Pay</string>

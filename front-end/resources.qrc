@@ -168,6 +168,9 @@
     <file>icons/cil-zoom-out.png</file>
     <file>icons/feather.zip</file>
   </qresource>
+  <qresource prefix="bg">
+    <file>img/cd1783ef9fcc4abf075ae1651034c91c.png</file>
+  </qresource>
   <qresource prefix="newPrefix">
     <file>icons/feather/activity.svg</file>
     <file>icons/feather/airplay.svg</file>
