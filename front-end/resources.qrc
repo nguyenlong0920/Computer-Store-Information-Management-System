@@ -168,8 +168,8 @@
     <file>icons/cil-zoom-out.png</file>
     <file>icons/feather.zip</file>
   </qresource>
-  <qresource prefix="bg">
-    <file>img/cd1783ef9fcc4abf075ae1651034c91c.png</file>
+  <qresource prefix="newPrefix">
+    <file>src/photo.jpg</file>
   </qresource>
   <qresource prefix="newPrefix">
     <file>icons/feather/activity.svg</file>
