@@ -452,13 +452,13 @@ background-color: rgb(238, 238, 238);</string>
               <widget class="QFrame" name="frame_14">
                <property name="minimumSize">
                 <size>
-                 <width>100</width>
+                 <width>170</width>
                  <height>300</height>
                 </size>
                </property>
                <property name="maximumSize">
                 <size>
-                 <width>100</width>
+                 <width>170</width>
                  <height>300</height>
                 </size>
                </property>
@@ -505,7 +505,7 @@ background-color: rgb(238, 238, 238);</string>
                    <string notr="true">background-color: rgb(134, 117, 169);</string>
                   </property>
                   <property name="text">
-                   <string>Laptops</string>
+                   <string>Laptop, Tablet,  Mobile </string>
                   </property>
                  </widget>
                 </item>
@@ -530,7 +530,7 @@ background-color: rgb(238, 238, 238);</string>
                    <string notr="true">background-color: rgb(134, 117, 169);</string>
                   </property>
                   <property name="text">
-                   <string>PC</string>
+                   <string>Accessories</string>
                   </property>
                  </widget>
                 </item>
@@ -555,7 +555,7 @@ background-color: rgb(238, 238, 238);</string>
                    <string notr="true">background-color: rgb(134, 117, 169);</string>
                   </property>
                   <property name="text">
-                   <string>Mobiles</string>
+                   <string>Others</string>
                   </property>
                  </widget>
                 </item>
@@ -567,7 +567,7 @@ background-color: rgb(238, 238, 238);</string>
                <property name="currentIndex">
                 <number>0</number>
                </property>
-               <widget class="QWidget" name="page">
+               <widget class="QWidget" name="pageLaptop">
                 <layout class="QHBoxLayout" name="horizontalLayout_4">
                  <item alignment="Qt::AlignVCenter">
                   <widget class="QScrollArea" name="scrollArea">
@@ -603,7 +603,7 @@ background-color: rgb(238, 238, 238);</string>
                      <rect>
                       <x>0</x>
                       <y>0</y>
-                      <width>1066</width>
+                      <width>996</width>
                       <height>1436</height>
                      </rect>
                     </property>
@@ -654,7 +654,7 @@ background-color: rgb(57, 62, 70);</string>
                            <string/>
                           </property>
                           <property name="pixmap">
-                           <pixmap resource="resources.qrc">:/newPrefix/src/photo.jpg</pixmap>
+                           <pixmap>:/newPrefix/src/photo.jpg</pixmap>
                           </property>
                           <property name="scaledContents">
                            <bool>true</bool>
@@ -793,7 +793,7 @@ background-color: rgb(57, 62, 70);</string>
                            <string/>
                           </property>
                           <property name="pixmap">
-                           <pixmap resource="resources.qrc">:/newPrefix/src/photo.jpg</pixmap>
+                           <pixmap>:/newPrefix/src/photo.jpg</pixmap>
                           </property>
                           <property name="scaledContents">
                            <bool>true</bool>
@@ -932,7 +932,7 @@ background-color: rgb(57, 62, 70);</string>
                            <string/>
                           </property>
                           <property name="pixmap">
-                           <pixmap resource="resources.qrc">:/newPrefix/src/photo.jpg</pixmap>
+                           <pixmap>:/newPrefix/src/photo.jpg</pixmap>
                           </property>
                           <property name="scaledContents">
                            <bool>true</bool>
@@ -1071,7 +1071,7 @@ background-color: rgb(57, 62, 70);</string>
                            <string/>
                           </property>
                           <property name="pixmap">
-                           <pixmap resource="resources.qrc">:/newPrefix/src/photo.jpg</pixmap>
+                           <pixmap>:/newPrefix/src/photo.jpg</pixmap>
                           </property>
                           <property name="scaledContents">
                            <bool>true</bool>
@@ -1174,7 +1174,7 @@ background-color: rgb(57, 62, 70);</string>
                            <string/>
                           </property>
                           <property name="pixmap">
-                           <pixmap resource="resources.qrc">:/newPrefix/src/photo.jpg</pixmap>
+                           <pixmap>:/newPrefix/src/photo.jpg</pixmap>
                           </property>
                           <property name="scaledContents">
                            <bool>true</bool>
@@ -1313,7 +1313,7 @@ background-color: rgb(57, 62, 70);</string>
                            <string/>
                           </property>
                           <property name="pixmap">
-                           <pixmap resource="resources.qrc">:/newPrefix/src/photo.jpg</pixmap>
+                           <pixmap>:/newPrefix/src/photo.jpg</pixmap>
                           </property>
                           <property name="scaledContents">
                            <bool>true</bool>
@@ -1452,7 +1452,7 @@ background-color: rgb(57, 62, 70);</string>
                            <string/>
                           </property>
                           <property name="pixmap">
-                           <pixmap resource="resources.qrc">:/newPrefix/src/photo.jpg</pixmap>
+                           <pixmap>:/newPrefix/src/photo.jpg</pixmap>
                           </property>
                           <property name="scaledContents">
                            <bool>true</bool>
@@ -1591,7 +1591,7 @@ background-color: rgb(57, 62, 70);</string>
                            <string/>
                           </property>
                           <property name="pixmap">
-                           <pixmap resource="resources.qrc">:/newPrefix/src/photo.jpg</pixmap>
+                           <pixmap>:/newPrefix/src/photo.jpg</pixmap>
                           </property>
                           <property name="scaledContents">
                            <bool>true</bool>
@@ -1730,7 +1730,7 @@ background-color: rgb(57, 62, 70);</string>
                            <string/>
                           </property>
                           <property name="pixmap">
-                           <pixmap resource="resources.qrc">:/newPrefix/src/photo.jpg</pixmap>
+                           <pixmap>:/newPrefix/src/photo.jpg</pixmap>
                           </property>
                           <property name="scaledContents">
                            <bool>true</bool>
@@ -1869,7 +1869,7 @@ background-color: rgb(57, 62, 70);</string>
                            <string/>
                           </property>
                           <property name="pixmap">
-                           <pixmap resource="resources.qrc">:/newPrefix/src/photo.jpg</pixmap>
+                           <pixmap>:/newPrefix/src/photo.jpg</pixmap>
                           </property>
                           <property name="scaledContents">
                            <bool>true</bool>
@@ -2008,7 +2008,7 @@ background-color: rgb(57, 62, 70);</string>
                            <string/>
                           </property>
                           <property name="pixmap">
-                           <pixmap resource="resources.qrc">:/newPrefix/src/photo.jpg</pixmap>
+                           <pixmap>:/newPrefix/src/photo.jpg</pixmap>
                           </property>
                           <property name="scaledContents">
                            <bool>true</bool>
@@ -2107,7 +2107,8 @@ background-color: rgb(57, 62, 70);</string>
                  </item>
                 </layout>
                </widget>
-               <widget class="QWidget" name="page_2"/>
+               <widget class="QWidget" name="pageAccessories"/>
+               <widget class="QWidget" name="pageOthers"/>
               </widget>
              </item>
             </layout>
