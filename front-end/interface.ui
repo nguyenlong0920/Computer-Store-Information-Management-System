@@ -603,8 +603,8 @@ background-color: rgb(238, 238, 238);</string>
                      <rect>
                       <x>0</x>
                       <y>0</y>
-                      <width>996</width>
-                      <height>1436</height>
+                      <width>1003</width>
+                      <height>1424</height>
                      </rect>
                     </property>
                     <layout class="QGridLayout" name="gridLayout">
